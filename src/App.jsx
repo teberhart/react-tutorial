@@ -4,6 +4,7 @@ import Conditional from "./components/Conditional.jsx";
 import Message from "./components/Message.jsx";
 import Counter from "./components/Counter.jsx";
 import ComplexCounter from "./components/ComplexCounter.jsx";
+import Form from "./components/Form.jsx";
 
 function App() {
     const personThibaut = {
@@ -16,6 +17,7 @@ function App() {
     }
     return (
         <div className="App">
+            <Form />
             <ComplexCounter />
             <Counter />
             <Message />
