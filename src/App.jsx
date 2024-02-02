@@ -3,6 +3,7 @@ import Fruits from './components/Fruits.jsx'
 import Conditional from "./components/Conditional.jsx";
 import Message from "./components/Message.jsx";
 import Counter from "./components/Counter.jsx";
+import ComplexCounter from "./components/ComplexCounter.jsx";
 
 function App() {
     const personThibaut = {
@@ -15,6 +16,7 @@ function App() {
     }
     return (
         <div className="App">
+            <ComplexCounter />
             <Counter />
             <Message />
             <Hello person={personThibaut} />
