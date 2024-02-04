@@ -1,3 +1,9 @@
 .list {
     list-style-type: none;
+    background-color: wheat;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(25, 25, 25, 50%);
+    width: 60%;
+    margin: 20px auto 0;
+    padding: 20px;
 }

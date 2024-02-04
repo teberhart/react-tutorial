@@ -1,0 +1,15 @@
+.item {
+    color: #333333;
+    font-size: 20px;
+    margin: 5px auto 0;
+    font-weight: bold;
+}
+
+.itemContainer {
+    padding: 5px;
+    margin: 3px;
+}
+
+.line {
+    border: 1px solid #3a3a3a;
+}
