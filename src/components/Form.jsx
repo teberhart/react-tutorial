@@ -8,6 +8,10 @@ export default function Form() {
         }
     );
 
+    function handleSubmit(e) {
+        e.preventDefault();
+    }
+
     return (
         <div>
             <h2>Form</h2>
@@ -20,6 +24,9 @@ export default function Form() {
                     onChange={(e) => setPerson({...person,
                         lastName: e.target.value
                })}></input>
+                <div>
+                    <button onClick={(e) => handleSubmit(e)}>Add</button>
+                </div>
             </form>
         </div>
     );
