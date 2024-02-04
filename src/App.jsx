@@ -6,6 +6,7 @@ import Counter from "./components/Counter.jsx";
 import ComplexCounter from "./components/ComplexCounter.jsx";
 import Form from "./components/Form.jsx";
 import Main from "./components/todo/Main.jsx";
+import './App.css';
 
 function App() {
     const personThibaut = {

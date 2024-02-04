@@ -1,5 +1,6 @@
 import {useState} from "react";
 import List from "./List.jsx";
+import styles from './Bar.module.css';
 
 export default function Bar() {
     const [inputValue, setInputValue] = useState("");
@@ -18,7 +19,7 @@ export default function Bar() {
     }
 
     return (
-        <div>
+        <div className={styles.form}>
             <form>
                 <input
                     type="text"
