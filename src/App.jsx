@@ -5,6 +5,7 @@ import Message from "./components/Message.jsx";
 import Counter from "./components/Counter.jsx";
 import ComplexCounter from "./components/ComplexCounter.jsx";
 import Form from "./components/Form.jsx";
+import Main from "./components/todo/Main.jsx";
 
 function App() {
     const personThibaut = {
@@ -15,7 +16,7 @@ function App() {
         greeting: "Miaou",
         name: "Obi-Wan"
     }
-    return (
+    const toReturn =
         <div className="App">
             <Form />
             <ComplexCounter />
@@ -25,6 +26,18 @@ function App() {
             <Hello person={personObi} />
             <Fruits />
             <Conditional display={false}/>
+        </div>
+    ;
+
+    const toReturnTodo =
+        <div>
+            <Main />
+        </div>
+    ;
+
+    return (
+        <div>
+            <Main />
         </div>
     )
 }

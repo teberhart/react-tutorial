@@ -28,7 +28,7 @@ export default function Fruits() {
         <div>
             <ul>
                 {fruits.map((fruit) => (
-                    <Fruit fruit={fruit} />
+                    <Fruit key={fruit.name} fruit={fruit} />
                 ))}
             </ul>
         </div>
