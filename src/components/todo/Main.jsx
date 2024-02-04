@@ -11,7 +11,7 @@ export default function Main() {
       <div>
           <Header />
           <Body list={list} setList={setList}/>
-          <Footer />
+          <Footer list={list}/>
       </div>
     );
 }

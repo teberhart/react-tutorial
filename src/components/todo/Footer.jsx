@@ -1,11 +1,11 @@
-export default function Footer() {
+export default function Footer({list}) {
     return (
         <footer>
             <div>
-                <b>Completed ToDos : </b> 0
+                <b>Completed ToDos : </b> {list.filter((item) => item.status).length}
             </div>
             <div>
-                <b>Total ToDos : </b> 0
+                <b>Total ToDos : </b> {list.length}
             </div>
         </footer>
     );

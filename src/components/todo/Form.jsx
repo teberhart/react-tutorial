@@ -7,7 +7,10 @@ export default function Form({list, setList}) {
         e.preventDefault();
         if (!(list.includes(inputValue))) {
             setList([...list,
-                inputValue
+                {
+                    text: inputValue,
+                    status: false
+                }
             ]);
             setInputValue("");
         } else {
