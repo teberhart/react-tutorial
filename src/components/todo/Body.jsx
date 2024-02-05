@@ -7,7 +7,7 @@ export default function Body({list, setList}) {
     return (
         <div className={styles.form}>
             <Form list={list} setList={setList}/>
-            <List list={list}/>
+            <List list={list} setList={setList}/>
         </div>
     );
 }
