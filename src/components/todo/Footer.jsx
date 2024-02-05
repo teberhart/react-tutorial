@@ -1,11 +1,13 @@
+import styles from './Footer.module.css';
+
 export default function Footer({list}) {
     return (
-        <footer>
-            <div>
-                <b>Completed ToDos : </b> {list.filter((item) => item.status).length}
+        <footer className={styles.main}>
+            <div className={styles.completed}>
+                <span><b>Completed ToDos : </b> {list.filter((item) => item.status).length}</span>
             </div>
-            <div>
-                <b>Total ToDos : </b> {list.length}
+            <div className={styles.total}>
+                <span><b>Total ToDos : </b> {list.length}</span>
             </div>
         </footer>
     );

@@ -1,0 +1,18 @@
+.main {
+    background-color: darkgrey;
+    position: fixed;
+    bottom: 0;
+    font-size: large;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+.completed {
+    width: 50%;
+}
+
+.total {
+    width: 50%;
+}
