@@ -5,6 +5,11 @@
     font-weight: bold;
 }
 
+.itemDone {
+    text-decoration: line-through;
+    color: #777777;
+}
+
 .itemContainer {
     padding: 5px;
     margin: 3px;
